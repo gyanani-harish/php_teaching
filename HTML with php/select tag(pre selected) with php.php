@@ -1,0 +1,16 @@
+<html>
+	<body>
+		<form method="post">
+			<select name="schools">
+				<option value="mhs">maheshwari senior secondary school</option>
+				<option value="mps">maheshwari public school</option>
+				<option value="mgps" selected="selected">maheshwari girls public school</option>
+			</select>
+			<input type="submit" />
+		</form>
+		<?php
+			$abcd=$_POST['schools'];
+			echo $abcd;	
+		?>
+	</body>
+</html>
